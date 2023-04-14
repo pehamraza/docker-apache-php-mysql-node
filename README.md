@@ -32,3 +32,17 @@ volumes:
         - '80:80'
         - '443:443'
  ```
+
+## Environment Variables:
+ You can change the environment variables to change the PHP version to install.
+ See variables,
+ 
+- PHP_VERSION
+- COMPOSER_ALLOW_XDEBUG
+- PHP_IDE_CONFIG
+- TERM
+
+## Other configurations
+
+- You can also modify ``php.ini`` to be included in your dev environment
+- You can modify ``vhost.conf`` to your Virtual Host configuration
