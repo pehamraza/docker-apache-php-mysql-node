@@ -1,6 +1,6 @@
 # Docker setup for Apache, PHP, MySQL & Node dev environment
 
-#### Published on Docker Hub at https://hub.docker.com/repository/docker/peham/apache2-mysql8-php-nod
+#### Published on Docker Hub at https://hub.docker.com/repository/docker/peham/apache2-mysql8-php-node
 ## How to use
 
 ### 1. Build docker image from dockerfile
