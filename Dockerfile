@@ -90,7 +90,9 @@ COPY ./ssl /etc/ssl/docker
 COPY ./vhost.conf /etc/apache2/sites-available/000-default.conf
 
 # install nodejs
-RUN sudo apt update -y && apt install nodejs -y && apt install npm -y
+RUN sudo apt update -y && apt-get -y install curl
+RUN curl -sL https://deb.nodesource.com/setup_18.x  | bash -
+RUN apt install nodejs -y
 
 # install grunt grunt-cli
 RUN sudo npm install grunt grunt-cli -g -y
